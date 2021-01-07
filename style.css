@@ -1,0 +1,104 @@
+h1 {
+	background-color: #00000080;
+	height: 55px;
+	padding-top: 25px;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+textarea {
+	width: 30%;
+	height: 360px;
+	background-color: #00000024;
+	border: 2px solid #ffffff80;
+	color: green;
+	font-size: 12pt;
+	resize: none;
+	transition: 0.075s;
+}
+
+textarea:hover,
+textarea:focus {
+	background-color: #00000046;
+	border: 2px solid #ffffff;
+}
+
+textarea:hover::placeholder,
+textarea:focus::placeholder {
+	color: #ffffff80;
+}
+
+body {
+	text-align: center;
+	background-color: black;
+	color: yellow;
+	font-family: 'PT Sans', sans-serif;
+	background-image: url("./muffin-time.png");
+}
+
+hr {
+	width: 50%;
+	border: none;
+	height: 2px;
+	background-image: linear-gradient(to right, #00000000, white, #00000000);
+}
+
+.button {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14pt;
+	background-color: #00000000;
+	border: 2px solid #ffffff80;
+	color: blue;
+}
+
+.button:hover {
+	border: 2px solid #ffffff;
+}
+
+.button:active {
+	background-color: #ffffff80;
+}
+
+::-webkit-scrollbar {
+	background-color: #00000040;
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #ffffff80;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: white;
+}
+
+::-webkit-scrollbar-button {
+	background-color: #ffffff40;
+}
+
+::-webkit-scrollbar-button:hover {
+	background-color: white;
+}
+
+input,
+select {
+	background-color: #00000024;
+	border: 1px solid #ffffff80;
+	color: black;
+	font-family: 'PT Sans', sans-serif;
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+	background-color: #00000046;
+	border: 1px solid #ffffff;
+}
+
+::placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+	color: #ffffff40;
+}
