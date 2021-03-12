@@ -2643,7 +2643,7 @@ function check_errors(path1, paths, multiplying) {
 			return n;
 		});
 		path1 = path1_new;
-		
+
 		if (created == 1) {
 			for (i = 0; i <= path1.length; i++) {
 				if (path1[i] == -1) {
